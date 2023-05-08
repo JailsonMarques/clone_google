@@ -55,10 +55,16 @@ form input {
     height: 50px;
     border-radius: 25px;
     border: 3px solid #ccc;
-    padding-left: 10px;
+    padding-left: 50px;
     margin-bottom: 10px;
 }
 
+[placeholder] {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ccc;
+
+}
 
 .botoes {
     text-align: center;
@@ -122,6 +128,13 @@ footer ul li {
         border: 3px solid #ccc;
         padding-left: 10px;
         margin-bottom: 10px;
+    }
+
+    [placeholder] {
+        font-size: 12px;
+        font-weight: bold;
+        color: #ccc;
+
     }
 
     .botoes input {
